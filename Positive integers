@@ -1,16 +1,9 @@
-List1=[12,-7,5,64,-14]
-List2=[12,14,-95,3]
-a0=0
-b0=0
-for integers in List1:
- if List1[a0]>0:
-   print(List1[a0])
-   a0=a0+1
- else:
-   a0=a0+1
-for integers in List2:
- if List2[b0]>0:
-   print (List2[b0])
-   b0=b0+1
- else:
-   b0=b0+1
+
+for List1 in [12,-7,5,64,-14]:
+ if List1>0:
+   print(List1)
+ 
+for List2 in [12,14,95,63]:
+ if List2>0:
+   print (List2)
+ 
